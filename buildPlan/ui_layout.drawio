@@ -1,0 +1,71 @@
+<mxfile host="Electron" modified="2024-06-10T06:08:14.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="jMxQvhLMnvyAmlA8nfTA" version="24.5.1" type="device">
+  <diagram name="Page-1" id="gTWzNuT6o8HikYVp8wgq">
+    <mxGraphModel dx="979" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-1" value="Main Landing" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-2" value="select option" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-1">
+          <mxGeometry x="160" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-3" value="from existing list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-1">
+          <mxGeometry x="30" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-4" value="create new list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-1">
+          <mxGeometry x="230" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-5" value="From existing list" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="413" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-7" value="img: show example layout of .txt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-5">
+          <mxGeometry x="95" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-8" value="search file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-5">
+          <mxGeometry x="30" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-9" value="confirm and generate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-5">
+          <mxGeometry x="180" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-11" value="selected file: ** update when file is selected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-5">
+          <mxGeometry x="95" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C9fpRAuhXmd1GtzUblo0-3" target="C9fpRAuhXmd1GtzUblo0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-12" value="create new list" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="414" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-19" value="editable text container&lt;div&gt;for user to put&lt;/div&gt;&lt;div&gt;in file names&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-12">
+          <mxGeometry x="10" y="41.5" width="160" height="168.5" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-20" value="file extension&lt;div&gt;input box&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-12">
+          <mxGeometry x="180" y="41.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-21" value="generate list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-12">
+          <mxGeometry x="180" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-22" value="where to&lt;div&gt;generate list&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="C9fpRAuhXmd1GtzUblo0-12">
+          <mxGeometry x="180" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C9fpRAuhXmd1GtzUblo0-4" target="C9fpRAuhXmd1GtzUblo0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C9fpRAuhXmd1GtzUblo0-21" target="C9fpRAuhXmd1GtzUblo0-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="700" />
+              <mxPoint x="550" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C9fpRAuhXmd1GtzUblo0-25" value="once created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C9fpRAuhXmd1GtzUblo0-24">
+          <mxGeometry x="-0.2485" y="2" relative="1" as="geometry">
+            <mxPoint x="15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
